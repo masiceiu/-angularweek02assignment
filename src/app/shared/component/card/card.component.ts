@@ -12,9 +12,9 @@ export class CardComponent implements OnInit {
 
   constructor() {
    this.card = {
-      title: 'HTML-CSS',
+      title: 'Fake-Title',
       count: 3,
-      frequent: 'Week',
+      frequent: 'frequent',
       body: 'There will be minimum 3 assignment for html-css so that we can be good in html-css coding.',
     };
   }

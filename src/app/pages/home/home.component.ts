@@ -21,45 +21,45 @@ export class HomeComponent implements OnInit {
     let allCardGroup: CardGroup[];
     allCardGroup = [
       {
-        title: 'Angular',
+        title: 'All Students',
         cards: [
           {
-            title: 'Angular',
+            title: 'Student1',
             count: 1,
-            frequent: 'Week',
+            frequent: 'English',
             body: 'We will have assignment per week for Angular. This assignment must be done before next week. Any help will be provide by Microsoft teams/class room.',
           },
           {
-            title: 'JavaScript',
+            title: 'Student2',
             count: 2,
             frequent: 'Week',
             body: 'There will be minimum 1 assignment for JavaScript so that we can be good in html-css coding.',
           },
           {
-            title: 'HTML-CSS',
+            title: 'Student3',
             count: 3,
-            frequent: 'Monthly',
+            frequent: 'Science',
             body: 'There will be minimum 3 assignment for html-css so that we can be good in html-css coding.',
           }]
       },
       {
-        title: 'Angular',
+        title: 'All Teachers',
         cards: [
           {
-            title: 'Angular',
+            title: 'Teacher1',
             count: 1,
-            frequent: 'Week',
+            frequent: 'English',
             body: 'We will have assignment per week for Angular. This assignment must be done before next week. Any help will be provide by Microsoft teams/class room.',
           },
           {
-            title: 'JavaScript',
+            title: 'Teacher3',
             count: 2,
-            frequent: 'Week',
+            frequent: 'Math',
             body: 'There will be minimum 1 assignment for JavaScript so that we can be good in html-css coding.',
           }, {
-            title: 'HTML-CSS',
+            title: 'Teacher2',
             count: 3,
-            frequent: 'Monthly',
+            frequent: 'Science',
             body: 'There will be minimum 3 assignment for html-css so that we can be good in html-css coding.',
           }]
       }];
